@@ -1,0 +1,64 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.body {
+    margin: 0px 144px;
+}
+
+header {
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nextcent {
+    width: 154.5px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    height: 24px;
+    width: 588px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.group-button {
+    width: 182px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group-button .login {
+    height: 40px;
+    width: 77px;
+    color: #4CAF4F;
+    background-color: #4caf4f00;
+    border: none;
+    font-size: 14px;
+}
+
+.group-button .sign-up {
+    height: 40px;
+    width: 90px;
+    background-color: #4CAF4F;
+    color: #ffff;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+}
