@@ -106,3 +106,31 @@ nav a {
     color: #ffff;
     font-size: 16px;
 }
+
+.clients {
+    box-sizing: border-box;
+    padding: 0px 144px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clients h1 {
+    font-size: 40px;
+}
+
+.clients p {
+    font-size: 18px;
+    color: #717171;
+}
+
+.clients .img-clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.community {
+    box-sizing: border-box;
+    padding: 0px 144px;
+}
