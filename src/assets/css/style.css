@@ -149,4 +149,44 @@ nav a {
 
 .community .cards {
     display: flex;
+    justify-content: space-between;
+}
+
+.community .card {
+    height: 260px;
+    width: 299px;
+    box-sizing: border-box;
+    padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #ABBED1;
+}
+
+.community .card img {
+    height: 56px;
+    width: 65px;
+    margin-bottom: 16px;
+}
+
+.community .card h2 {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.community .card p {
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.main .container-pixelgrade {
+    height: 433px;
+}
+
+.container-pixelgrade {
+    height: 433px;
+    width: 442px;
+}
+
+.container-pixelgrade h1 {
+    font-size: 42px;
 }
