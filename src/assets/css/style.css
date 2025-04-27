@@ -93,7 +93,7 @@ nav a {
     font-size: 70px;
 }
 
-.hero .text-green {
+.text-green {
     color: #4CAF4F;
 }
 
@@ -227,12 +227,62 @@ nav a {
     padding: 0px 144px;
     background-color: #F5F7FA;
     display: flex;
+    align-items: center;
+}
+
+.business-status {
+    height: 160px;
+    width: 540px;
 }
 
 .business-status .up {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .business-status .down {
     display: flex;
+    justify-content: space-between;
+}
+
+.business-card {
+    display: flex;
+    width: 255px;
+    height: 60px;
+}
+
+.business-card img {
+    height: 48px;
+    width: 48px;
+}
+
+.business-text {
+    height: 120px;
+    width: 540px;
+}
+
+.business-text h1 {
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.business-text p {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.text-businnes-card {
+    margin-left: 16px;
+}
+
+.text-businnes-card h2 {
+    font-size: 28px;
+    margin: 0px;
+}
+
+.text-businnes-card p {
+    font-size: 16px;
+    margin: 0px;
 }
