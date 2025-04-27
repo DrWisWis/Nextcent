@@ -188,16 +188,13 @@ nav a {
     font-size: 16px;
 }
 
-.main {
-    box-sizing: border-box;
-    padding: 0px 144px;
-}
-
 .main .container-pixelgrade {
     height: 433px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    padding: 0px 144px;
 }
 
 .container-pixelgrade img{
@@ -226,4 +223,16 @@ nav a {
     margin-top: 48px;
     margin-bottom: 48px;
     height: 288px;
+    box-sizing: border-box;
+    padding: 0px 144px;
+    background-color: #F5F7FA;
+    display: flex;
+}
+
+.business-status .up {
+    display: flex;
+}
+
+.business-status .down {
+    display: flex;
 }
