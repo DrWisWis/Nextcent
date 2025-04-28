@@ -217,6 +217,7 @@ nav a {
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 32px;
+    color: #717171;
 }
 
 .container-business {
@@ -228,6 +229,7 @@ nav a {
     background-color: #F5F7FA;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .business-status {
@@ -285,4 +287,35 @@ nav a {
 .text-businnes-card p {
     font-size: 16px;
     margin: 0px;
+    color: #717171;
+}
+
+.container-design {
+    padding: 0px 144px;
+    margin-bottom: 48px;
+    height: 434px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-design img {
+    width: 441px;
+    height: auto;
+}
+
+.container-design-text {
+    width: 661px;
+    height: 308px;
+}
+
+.container-design-text h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+.container-design-text p {
+    font-size: 16px;
+    color: #717171;
+    margin-bottom: 32px;
 }
