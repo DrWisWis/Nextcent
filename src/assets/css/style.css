@@ -367,8 +367,46 @@ nav a {
     justify-content: space-between;
 }
 
+.container-tesla .container-tesla-bio .img-client-tesla h2{
+    font-size: 20px;
+}
+
 .notice {
     box-sizing: border-box;
     padding: 0px 144px;
     height: 506px;
+}
+
+.notice .cards-notice .card {
+    width: 368px;
+    max-width: 368px;
+    height: 366px;
+    max-height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img {
+    width: 368px;
+    min-width: 368px;
+    height: 286px;
+    min-height: 286px;
+    background-image: url(/src/assets/img/sra.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    border-radius: 8px;
+}
+
+.card-text {
+    width: 317px;
+    min-width: 317px;
+    height: 176px;
+    min-height: 176px;
+    background-color: white;
+    box-shadow: 2px 2px 5px #ABBED1;
+    border-radius: 8px;
+    margin-top: -96px;
 }
