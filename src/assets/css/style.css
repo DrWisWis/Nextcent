@@ -366,3 +366,9 @@ nav a {
     align-items: center;
     justify-content: space-between;
 }
+
+.notice {
+    box-sizing: border-box;
+    padding: 0px 144px;
+    height: 506px;
+}
