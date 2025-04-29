@@ -372,9 +372,33 @@ nav a {
 }
 
 .notice {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     box-sizing: border-box;
     padding: 0px 144px;
     height: 506px;
+    margin-bottom: 95px;
+}
+
+.notice > h1 {
+    font-size: 42px;
+    margin: 0px;
+}
+
+.notice > p {
+    font-size: 18px;
+    color: #717171;
+    height: 72px;
+    width: 628px;
+}
+
+.cards-notice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .notice .cards-notice .card {
@@ -392,7 +416,6 @@ nav a {
     min-width: 368px;
     height: 286px;
     min-height: 286px;
-    background-image: url(/src/assets/img/sra.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -405,8 +428,48 @@ nav a {
     min-width: 317px;
     height: 176px;
     min-height: 176px;
-    background-color: white;
+    background-color: #F5F7FA;
     box-shadow: 2px 2px 5px #ABBED1;
     border-radius: 8px;
     margin-top: -96px;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
+}
+
+.card-text h2{
+    font-size: 22px;
+}
+
+.card-text p {
+    font-size: 20px;
+    color: #4CAF4F;
+}
+
+.demo {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 32px 144px;
+    background-color: #F5F7FA;
+}
+
+.demo h1 {
+    width: 887px;
+    height: 152px;
+    font-size: 64px;
+    margin: 0px;
+}
+
+.demo button {
+    width: 178px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #ffff;
+    margin-top: 32px;
+    border: none;
+    border-radius: 4px;
 }
