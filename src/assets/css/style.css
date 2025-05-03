@@ -479,4 +479,25 @@ footer {
     padding: 0px 144px;
     background-color: #263238;
     height: 328px;
+    display: flex;
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 190px;
+}
+
+.footer-left .marca {
+    display: flex;
+}
+
+.footer-rigth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 635px;
+    height: 200px;
 }
