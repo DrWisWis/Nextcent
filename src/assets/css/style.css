@@ -1,4 +1,6 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
     padding: 0%;
     margin: 0%;
 }
@@ -6,7 +8,7 @@ body {
 header {
     height: 84px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #F5F7FA;
     box-sizing: border-box;
@@ -87,7 +89,7 @@ nav a {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #F5F7FA;
     box-sizing: border-box;
     padding: 0px 144px;
@@ -140,22 +142,26 @@ nav a {
     box-sizing: border-box;
     padding: 0px 144px;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .max-clients {
     width: 1152px;
     box-sizing: border-box;
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.clients>h1 {
+.clients .max-clients>h1 {
     font-size: 40px;
+    margin-bottom: 8px;
 }
 
-.clients>p {
+.clients .max-clients>p {
+    margin-bottom: 16px;
     font-size: 18px;
     color: #717171;
 }
@@ -170,7 +176,7 @@ nav a {
     box-sizing: border-box;
     padding: 0px 144px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
@@ -218,12 +224,9 @@ width: 1152px;
     font-size: 16px;
 }
 
-.main .container-pixelgrade {
-    height: 433px;
+main {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
+    justify-content: center;
     padding: 0px 144px;
 }
 
@@ -232,6 +235,14 @@ width: 1152px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.max-main .container-pixelgrade {
+    height: 433px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .container-pixelgrade img {
@@ -266,7 +277,7 @@ width: 1152px;
     background-color: #F5F7FA;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .max-container-busines {
@@ -340,7 +351,7 @@ width: 1152px;
     height: 434px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .max-container-design {
@@ -377,6 +388,8 @@ width: 1152px;
     margin-bottom: 48px;
     height: 390px;
     background-color: #F5F7FA;
+    display: flex;
+    justify-content: center;
 }
 
 .max-container-tesla {
