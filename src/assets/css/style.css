@@ -3,7 +3,6 @@ body {
     margin: 0%;
 }
 
-
 header {
     height: 84px;
     display: flex;
@@ -12,6 +11,16 @@ header {
     background-color: #F5F7FA;
     box-sizing: border-box;
     padding: 0px 144px;
+}
+
+.max-header {
+ width: 1152px;
+ height: 84px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #F5F7FA;
+ box-sizing: border-box;
 }
 
 .Nextcent {
@@ -84,6 +93,16 @@ nav a {
     padding: 0px 144px;
 }
 
+.max-hero {
+    height: 599px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    box-sizing: border-box;
+    width: 1152px;
+}
+
 .text-hero {
     height: 276px;
     width: 657px;
@@ -125,11 +144,18 @@ nav a {
     text-align: center;
 }
 
-.clients > h1 {
+.max-clients {
+    width: 1152px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients>h1 {
     font-size: 40px;
 }
 
-.clients > p {
+.clients>p {
     font-size: 18px;
     color: #717171;
 }
@@ -146,6 +172,10 @@ nav a {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.max-community {
+width: 1152px;
 }
 
 .community h1 {
@@ -197,7 +227,14 @@ nav a {
     padding: 0px 144px;
 }
 
-.container-pixelgrade img{
+.max-main {
+    width: 1152px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-pixelgrade img {
     height: 433px;
     width: 442px;
 }
@@ -227,6 +264,12 @@ nav a {
     box-sizing: border-box;
     padding: 0px 144px;
     background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max-container-busines {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -300,6 +343,13 @@ nav a {
     justify-content: space-between;
 }
 
+.max-container-design {
+    width: 1152px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .container-design img {
     width: 441px;
     height: auto;
@@ -326,10 +376,14 @@ nav a {
     box-sizing: border-box;
     margin-bottom: 48px;
     height: 390px;
+    background-color: #F5F7FA;
+}
+
+.max-container-tesla {
+    width: 1152px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F5F7FA;
 }
 
 .container-tesla .container-tesla-bio {
@@ -367,7 +421,7 @@ nav a {
     justify-content: space-between;
 }
 
-.container-tesla .container-tesla-bio .img-client-tesla h2{
+.container-tesla .container-tesla-bio .img-client-tesla h2 {
     font-size: 20px;
 }
 
@@ -382,12 +436,12 @@ nav a {
     margin-bottom: 95px;
 }
 
-.notice > h1 {
+.notice>h1 {
     font-size: 42px;
     margin: 0px;
 }
 
-.notice > p {
+.notice>p {
     font-size: 18px;
     color: #717171;
     height: 72px;
@@ -437,7 +491,7 @@ nav a {
     text-align: center;
 }
 
-.card-text h2{
+.card-text h2 {
     font-size: 22px;
 }
 
@@ -474,20 +528,28 @@ nav a {
     border-radius: 4px;
 }
 
-footer {    
+footer {
     box-sizing: border-box;
     padding: 0px 144px;
     background-color: #263238;
     height: 328px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
+}
+
+.footer {
+    height: 200px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer-left {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 190px;
 }
 
 .footer-left .marca {
@@ -500,4 +562,16 @@ footer {
     justify-content: space-between;
     width: 635px;
     height: 200px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer .stay-up input {
+    height: 40px;
+    width: 255px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 8px;
 }
