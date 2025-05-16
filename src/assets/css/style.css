@@ -8,21 +8,12 @@
 header {
     height: 84px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #F5F7FA;
     box-sizing: border-box;
     padding: 0px 144px;
-}
-
-.max-header {
- width: 1152px;
- height: 84px;
- display: flex;
- justify-content: space-between;
- align-items: center;
- background-color: #F5F7FA;
- box-sizing: border-box;
+    gap: 140px;
 }
 
 .Nextcent {
@@ -47,8 +38,9 @@ nav {
     height: 24px;
     width: 588px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 nav a {
@@ -90,19 +82,10 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 104px;
     background-color: #F5F7FA;
     box-sizing: border-box;
     padding: 0px 144px;
-}
-
-.max-hero {
-    height: 599px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #F5F7FA;
-    box-sizing: border-box;
-    width: 1152px;
 }
 
 .text-hero {
@@ -143,24 +126,18 @@ nav a {
     padding: 0px 144px;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.max-clients {
-    width: 1152px;
-    box-sizing: border-box;
+    margin: 40px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.clients .max-clients>h1 {
+.clients>h1 {
     font-size: 40px;
     margin-bottom: 8px;
 }
 
-.clients .max-clients>p {
+.clients>p {
     margin-bottom: 16px;
     font-size: 18px;
     color: #717171;
@@ -169,7 +146,8 @@ nav a {
 .clients .img-clients {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 136px;
 }
 
 .community {
@@ -178,10 +156,7 @@ nav a {
     display: flex;
     justify-content: center;
     text-align: center;
-}
-
-.max-community {
-width: 1152px;
+    flex-direction: column;
 }
 
 .community h1 {
@@ -195,7 +170,9 @@ width: 1152px;
 
 .community .cards {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 127px;
 }
 
 .community .card {
